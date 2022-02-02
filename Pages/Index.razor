@@ -1,0 +1,48 @@
+﻿@page "/"
+@using Syncfusion.Blazor.CircularGauge
+
+
+<SfCircularGauge Title="Speedometer" EnablePointerDrag="true">
+    <CircularGaugeTitleStyle Color="darkblue" FontWeight="bold" Size="25"></CircularGaugeTitleStyle>
+    <CircularGaugeAxes>
+        <CircularGaugeAxis>
+            <CircularGaugePointers>
+                <CircularGaugePointer
+                Value=46
+                Radius="60%"
+                PointerWidth=30
+                Color="#007DD1"
+                Position="PointerRangePosition.Inside">
+                <CircularGaugeCap Radius=15 Color="white">
+                    <CircularGaugeCapBorder Width="4" Color="#007DD1"></CircularGaugeCapBorder>
+                </CircularGaugeCap>
+                <CircularGaugeNeedleTail Length="35%" Color="#007DD1"></CircularGaugeNeedleTail>
+                </CircularGaugePointer>
+
+                <CircularGaugePointer 
+                Value=46
+                Radius="98%"
+                PointerWidth=8
+                RoundedCornerRadius=20
+                Color="#007DD1"
+                Position="PointerRangePosition.Inside"
+                Type="PointerType.RangeBar">
+                <CircularGaugePointerBorder Color="blue" Width="2"></CircularGaugePointerBorder>
+                </CircularGaugePointer>
+
+                <CircularGaugePointer
+                Value=46
+                Radius="95%"
+                MarkerHeight=15
+                MarkerWidth=15
+                Color="#007DD1"
+                Position="PointerRangePosition.Inside"
+                Type="PointerType.Marker"
+                MarkerShape="GaugeShape.Diamond">
+                <CircularGaugePointerBorder Color="blue" Width="2"></CircularGaugePointerBorder>
+            </CircularGaugePointer>
+            </CircularGaugePointers>
+
+        </CircularGaugeAxis>
+    </CircularGaugeAxes>
+</SfCircularGauge>
