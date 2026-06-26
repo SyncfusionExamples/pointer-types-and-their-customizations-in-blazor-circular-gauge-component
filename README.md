@@ -58,4 +58,4 @@ dotnet run
 
 **Documentation**: https://blazor.syncfusion.com/documentation/circular-gauge/pointers
 
-**Online example**: https://blazor.syncfusion.com/demos/circular-gauge/pointer-types   
+**Online example**: https://blazor.syncfusion.com/demos/circular-gauge/pointer-types
