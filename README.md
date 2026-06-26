@@ -33,7 +33,7 @@ Perfect for developers looking to integrate interactive gauges into their Blazor
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/pointer-types-and-their-customizations-in-blazor-circular-gauge-component.git
+git clone https://github.com/SyncfusionExamples/pointer-types-and-their-customizations-in-blazor-circular-gauge-component.git
 cd pointer-types-and-their-customizations-in-blazor-circular-gauge-component
 ```
 
